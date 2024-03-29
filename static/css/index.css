@@ -167,10 +167,16 @@ header li:hover {
 
 .section03 .wrapper {
   display: flex;
+  gap: 60px;
 }
 .section03 .wrapper h2 {
   font-size: 48px;
   font-weight: 400;
+}
+.section03 .wrapper .why-us {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
 }
 .section03 .wrapper .grids {
   display: grid;
@@ -187,10 +193,11 @@ header li:hover {
   position: relative;
   display: flex;
   align-items: flex-end;
+  width: 500px;
 }
 .section03 .wrapper .img img {
   display: block;
-  width: auto;
+  width: 100%;
   height: 85%;
   margin-left: auto;
 }
@@ -198,8 +205,8 @@ header li:hover {
   position: absolute;
   width: 33%;
   height: auto;
-  right: 62%;
-  top: 0;
+  right: 72.5%;
+  top: 0px;
   z-index: -1;
 }
 
@@ -302,4 +309,10 @@ footer .top ul {
 footer .copy {
   text-align: right;
   margin-top: 20px;
+}
+
+@media screen and (min-width: 1500px) {
+  .section03 .wrapper {
+    gap: 200px;
+  }
 }/*# sourceMappingURL=index.css.map */
