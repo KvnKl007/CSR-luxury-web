@@ -250,6 +250,9 @@ html {
 @media (min-width: 780px) {
   .section02 {
     .container {
+      h2 {
+        font-size: 48px;
+      }
       flex-direction: column;
       .container-p {
         flex-direction: row;
@@ -343,6 +346,9 @@ html {
       .why-us {
         text-align: left;
         width: 50%;
+        h2 {
+          font-size: 48px;
+        }
         .grids {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -352,10 +358,10 @@ html {
       .img {
         margin-top: 50px;
         img {
-          width: 80%;
+          width: 90%;
         }
         .dots {
-          left: 10px;
+          left: -10px;
           top: -80px;
         }
       }
