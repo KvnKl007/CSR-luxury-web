@@ -63,6 +63,7 @@ html {
 }
 .nav ul li a {
   text-decoration: none;
+  color: #03a59b;
 }
 .nav ul li a:hover {
   color: #03a59b;
